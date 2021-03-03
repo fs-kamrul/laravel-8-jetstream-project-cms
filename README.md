@@ -9,14 +9,17 @@
 
 ### Install Code
 ```
-1. composer install
-2. npm install
-3. npm run dev
-4. composer dump-autoload
-5. php artisan optimize
-6. (create and edit .env for database connection)
-7. php artisan migrate
-8. php artisan serve
+1.  composer install
+2.  npm install
+3.  npm run dev
+4.  composer dump-autoload
+5.  php artisan optimize
+6.  (create and edit .env for database connection)
+7.  php artisan key:generate
+8.  php artisan config:clear
+9.  php artisan cache:clear
+10. php artisan migrate
+11. php artisan serve
 ```
 ## About Laravel
 
